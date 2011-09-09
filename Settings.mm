@@ -1,6 +1,8 @@
-/* WinterBoard - Theme Manager for the iPhone
- * Copyright (C) 2009-2010  Jay Freeman (saurik)
-*/
+/* InstantBoard - Fast Theme Manager for iDevices
+ * Originally by Jay Freeman (saurik) <http://saurik.com>
+ * Modified by Ad@m <http://adamscode.sf.net>
+ * Copyright (C) 2008 - 2011, saurik and Ad@m.
+ */
 
 /*
  *        Redistribution and use in source and binary

@@ -5,7 +5,7 @@ A [WinterBoard](http://saurik.com) fork by [Ad@m](http://adamscode.sourceforge.n
 This software is **NOT** intended for public use yet. It may be unstable, which can cause a SpringBoard crash. Install this on your iDevice only if you are testing it. 
 I am not responsible for anything that happens to your iDevice if you use this software. 
 
-_Also, the source code is currently exactly the same as the code on 6/9/11 in Saurik's repo, because work has not begun on this software yet._
+_Also, the source code is currently exactly the same as the code on 6/9/11 in Saurik's repo, because work has not begun on this software yet. Beta testers can read the INSTALL.md file to find out how to test this app._
 
 ## Introduction ##
 I am a big jailbreaking fan, but one day I found that my iPad took a long time to respring. Since I try to convince many people what they can do with a jailbroken iDevice, speed is often a dealbreaker. So I began to cut down on the number of tweaks I had installed. But, a month later, an awesome idea came to mind: to fork WinterBoard and create my own, faster, theme reloading system. 

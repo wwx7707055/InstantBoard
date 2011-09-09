@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict>
-
-<key>StatusBarMode</key>
-<string>0</string>
-
-</dict></plist>
+<plist version="1.0">
+<dict>
+    <key>StatusBarMode</key>
+    <string>0</string>
+    <!--
+      This plist forces the status bar (where the clock is at the top of the screen) to always 
+      be black, like on the iPad. 
+    -->
+</dict>
+</plist>

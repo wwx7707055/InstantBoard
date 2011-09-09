@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict>
-
-<key>DockedIconLabelStyle</key>
-<string>color: transparent</string>
-
-</dict></plist>
+<plist version="1.0">
+<dict>
+    <key>DockedIconLabelStyle</key>
+    <string>color: transparent</string>
+    <!--
+      This plist gives SpringBoard a CSS style that makes the name of apps in the dock hidden. 
+    -->
+</dict>
+</plist>
