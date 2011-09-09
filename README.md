@@ -1,4 +1,4 @@
-# Unnamed WinterBoard Fork BETA #
+# InstantBoard BETA #
 A [WinterBoard](http://saurik.com) fork by [Ad@m](http://adamscode.sourceforge.net/?wb) that aims to be faster and easier to use. 
 
 ## Important ##
@@ -24,6 +24,6 @@ This tweak will use [symbolic links](http://google.com/search?q=define+symlinks)
 
 ## Credits ##
 * [Jay Freeman](http://saurik.com) for creating WinterBoard and making it open-source
-* [@SnowLeo_](http://twitter.com/#!/SnowLeo_) for the idea of DreamBoard integration
+* [@SnowLeo_](http://twitter.com/#!/SnowLeo_) for the name and the idea of DreamBoard integration
 * [@PathKiller29](http://twitter.com/#!/PathKiller29) for helping me out with this project
 * ...and [me](http://adamscode.sourceforge.net/?wb), for initially thinking of the idea :)
