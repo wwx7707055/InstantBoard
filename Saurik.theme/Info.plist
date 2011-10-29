@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>FontName-Helvetica</key>
+    <string>Courier New</string>
+    <!--
+      The above code tells the system to use Courier New where it would usually use Helvetica. 
+    -->
+    <key>UndockedIconLabelStyle</key>
+    <string>color: white</string>
+    <!--
+      The above CSS tells SpringBoard to make the name of icons the color white.
+    -->
+    <key>DockedIconLabelStyle</key>
+    <string>color: burlywood</string>
+    <!--
+      The above CSS tells SpringBoard to make the name of docked icons the color burlywood. 
+    -->
+</dict>
+</plist>

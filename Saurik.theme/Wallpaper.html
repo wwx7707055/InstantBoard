@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="Private/">
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 20px 0 0 0;
+            height: 442px;
+            width: 320px;
+        }
+        img {
+            -webkit-transition-property: opacity;
+            -webkit-transition-duration: 2s;
+            position: absolute;
+            width: 320px;
+            height: auto;
+        }
+        img.fade-out {
+            opacity: 0;
+        }
+        img.fade-in {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <img id="one">
+    <img id="two">
+    <script>
+        var images = ['Rock.png', 'Plant.png'];
+        var index = 0;
+        var fade_in = document.querySelector("#one");
+        var fade_out = document.querySelector("#two");
+        fade_in.src = images[0];
+        fade_out.src = images[images.length - 1];
+        var fade = function () {
+            fade_in.src = images[index];
+            index = (index + 1) % images.length;
+            fade_in.className = 'fade-out';
+            fade_out.className = 'fade-in';
+            var fade_tmp = fade_in;
+            fade_in = fade_out;
+            fade_out = fade_tmp;
+            setTimeout(fade, 15000);
+        };
+        fade();
+    </script>
+    <!--
+      This wallpaper leverages WebKit's hardware-based CSS3 transition technologies to make a 
+      slideshow between two pictures. Due to the fact that software-based (JavaScript) transitions 
+      are slower on the iPhone, it is not ideal for use in a wallpaper.
+    -->
+</body></html>

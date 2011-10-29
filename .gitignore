@@ -5,3 +5,8 @@ WinterBoardSettings
 *.deb
 Optimize
 winterboard
+.svn
+nppBackup
+nppBackup/*
+User Lock Background.theme
+User Wallpaper.theme
