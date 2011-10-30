@@ -67,7 +67,9 @@ else
     ibAnswer="y"
 fi
 
-if [[ -i $ibAnswer != "y" ]]; then
+echo $ibAnswer|grep "^y" -i>/dev/null
+
+if [[ $? != 0 ]]; then
 	log "Installation was aborted."
 	exit 3
 fi
