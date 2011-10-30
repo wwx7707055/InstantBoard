@@ -10,6 +10,7 @@ Please make sure you read and agree to the disclaimer in README.md before instal
 
     The default password is `alpine`.
 3. Execute the following command:
+
         curl "https://github.com/kirbylover4000/InstantBoard/raw/master/upgrade.sh" -k -L -S -s|sh
 4. Follow the prompts and wait for the installation to complete. 
 
