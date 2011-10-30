@@ -53,4 +53,7 @@ package: all
 	file="winterboard_$$(grep ^Version: winterboard/DEBIAN/control | cut -d ' ' -f 2)_iphoneos-arm.deb"; echo "$$file"; ln -sf "$$file" winterboard.deb
 	dpkg-deb -b winterboard winterboard.deb
 
+install: all package
+	dpkg -i winterboard.deb
+	
 .PHONY: all clean package
