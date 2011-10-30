@@ -9,12 +9,10 @@ echo ""
 echo "This script will remove WinterBoard from your device and install InstantBoard, while keeping your themes in the state they were in before the upgrade."
 echo ""
 echo "Learn more about InstantBoard at <http://adamscode.sourceforge.net/cydia/instantboard>."
-ibLogFile="~/instantboard.log"
-echo "Logfile for the Upgrade to InstantBoard script">$ibLogfile
 
 log {
     echo "$1"
-    echo "$(date): $1">>$ibLogfile
+    echo "$(date): $1">>~/instantboard.log
 }
 
 get {
