@@ -19,8 +19,8 @@ function get {
 	if [[ ! -f "/usr/bin/$1" ]]; then
 		log "Installing $1."
 		log "=== start apt-get output ==="
-		log "$(apt-get -qq -y install $1)"
-		log "=== end apt-get output ==="
+		log "$(apt-get -y install $1)"
+		log "===  end apt-get output  ==="
 	fi
 }
 
@@ -62,7 +62,7 @@ fi
 if [[ ! $ibQuiet ]]; then
     echo "Are you sure you want to remove WinterBoard and install InstantBoard?"
     echo "Y=Yes, N=No"
-    ibAnswer=$(read)
+    read ibAnswer
 else
     ibAnswer="y"
 fi
