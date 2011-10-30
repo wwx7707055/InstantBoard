@@ -10,12 +10,12 @@ echo "This script will remove WinterBoard from your device and install InstantBo
 echo ""
 echo "Learn more about InstantBoard at <http://adamscode.sourceforge.net/cydia/instantboard>."
 
-log {
+function log {
     echo "$1"
     echo "$(date): $1">>~/instantboard.log
 }
 
-get {
+function get {
 	if [[ ! -f "/usr/bin/$1" ]]; then
 		log "Installing $1."
 		log "=== start apt-get output ==="
