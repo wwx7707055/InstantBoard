@@ -26,10 +26,10 @@ function get {
 
 ibDebug=false
 ibQuiet=false
-if [[ $1 == "--test" ]] then
+if [[ $1 == "--test" ]]; then
     log "Test flag was detected."
     ibDebug=true
-elif [[ $1 == "--quiet" ]] then
+elif [[ $1 == "--quiet" ]]; then
     log "Quiet flag was detected."
     ibQuiet=true
 fi
